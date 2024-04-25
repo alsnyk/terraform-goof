@@ -43,7 +43,6 @@ resource "aws_kms_key" "km_db_kms_key" {
 }
 
 resource "aws_db_instance" "km_db" {
-  name                      = "km_db_${var.environment}"
   allocated_storage         = 20
   engine                    = "postgres"
   engine_version            = "10.6"
