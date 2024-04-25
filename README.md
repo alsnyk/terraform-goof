@@ -3,7 +3,7 @@
 This repository contains a hello world example which demonstrates the Terraform features of Snyk Infrastructure as code. In particular:
 
 * Detecting CIS Benchmark issues for the AWS Terraform provider
-
+* Must add AWS creds 
 
 ## Snyk UI Projects
 
